@@ -1,6 +1,6 @@
 .intro {
     max-width: 690px;
-    height: 429px;
+    min-height: 429px;
     display: block;
     text-align: left;
     margin-left: 148px;
@@ -26,6 +26,6 @@
         margin-left: 16px;
         margin-top: 64px;
         max-width: 288px;
-        height: 754px;
+        max-height: 754px;
     }
 }

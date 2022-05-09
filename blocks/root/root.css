@@ -1,21 +1,4 @@
-.root {
+ .root {
     max-width: 1280px;
     margin: 0 auto;
 }
-
-@media screen and (max-width: 1279px){
-    .root{
-    min-width: 1024px; 
-    }
-}   
-@media screen and (max-width: 1023px){
-    .root{
-    min-width: 768px; 
-    }
-}  
-
-@media screen and (max-width: 767px){
-    .root{
-    min-width: 320px; 
-    }
-}  
