@@ -3,6 +3,7 @@
     background-size: cover;
     max-width: 1184px;
     min-height: 740px;
+    min-width: 320px;
     margin: 0 auto;
     margin-top: 92px;
     margin-left: 48px;
@@ -36,24 +37,22 @@
 
 @media screen and (max-width: 1279px){
     .cover{
-        min-width: 1024px;
-        min-height: 640px;
+        margin-left: 0;
+        margin-right: 0;
     }
 } 
 
 @media screen and (max-width: 1023px){
     .cover{
-        min-width: 768px;
-        min-height: 480px;
-        margin-top: 90px;    
+        margin-top: 90px;   
+        min-height: 480px; 
     }
 } 
 
 
 @media screen and (max-width: 767px){
     .cover{
-        min-width: 320px;
-        min-height: 200px;
         margin-top: 66px;    
+        min-height: 200px;
     }
 } 
