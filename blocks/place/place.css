@@ -19,15 +19,15 @@
 @media screen and (max-width: 1023px) {
     .place {
         max-width: 720px;
-        grid-template-columns: 340px 352px;
+        grid-template-columns: 340px 1fr;
         gap: 48px 25px;
         margin-top: 72px;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 660px) {
     .place {
-        display: block;
+        grid-template-columns: 320px;
         margin-top: 50px;
     }
 }
