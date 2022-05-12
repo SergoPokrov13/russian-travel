@@ -28,6 +28,7 @@
     .footer {
         display: block;
         margin-left: 16px;
+        margin-top: 64px;
         width: 186px;
     }
 }
