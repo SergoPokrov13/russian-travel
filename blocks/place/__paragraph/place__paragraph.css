@@ -1,18 +1,14 @@
 .place__paragraph {
-    font-family: 'Inter';
+    font-family: "Inter", "Arial", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
-    margin: 0;
+    margin: 0 0 26px;
 }
 
-.place__paragraph:first-child {
-    margin-bottom: 26px;
-}
-
-.place__paragraph:last-of-type{
+.place__paragraph:last-child {
     margin-bottom: 0;
 }
 
@@ -25,11 +21,7 @@
 
 @media screen and (max-width: 767px) {
     .place__paragraph {
-        margin: 32px 16px 0 16px;
+        margin: 0 16px 26px ;
 
-    }
-
-    .place__paragraph:last-child {
-        margin-bottom: 0px;
     }
 }
